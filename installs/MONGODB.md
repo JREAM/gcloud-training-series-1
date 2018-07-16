@@ -2,6 +2,11 @@
 
 ## Linux
 
+Create a default path for mongo data files:
+```sh
+mkdir -p /data/db
+````
+
 Ensure we have our dependencies.
 ```sh
 sudo apt-get install libcurl3 openssl -y
